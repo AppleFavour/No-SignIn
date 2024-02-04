@@ -1,0 +1,10 @@
+Package: org.favour.nosigninthanks
+Name: NoSigninThx
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Unveiling an alert with a touch of <slightly diffrent> magic. again.
+Maintainer: AppleFavour
+Author: AppleFavour
+Section: Tweaks
+Depends: mobilesubstrate
+Icon: https://turannul.github.io/home/resources/whatsapp.png
