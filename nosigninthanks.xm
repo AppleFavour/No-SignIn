@@ -7,7 +7,7 @@ void nosignin_debug(){
     NSString *bundleID = [[NSBundle mainBundle] bundleIdentifier];
     NSString *bundleName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
     NSString *OSVersion = [[UIDevice currentDevice] systemVersion];
-    NSLog(@"No Sign-in injected %@ (%@) OS Version: %@:", bundleName, bundleID, OSVersion);
+    NSLog(@"No Sign-in loaded in %@ (%@) OS Version: %@:", bundleName, bundleID, OSVersion);
 
 }
 
